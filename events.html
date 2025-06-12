@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'}
+    span.s1 {font-kerning: none}
+    span.s2 {font: 12.0px Helvetica; font-kerning: none; -webkit-text-stroke: 0px #000000}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;title&gt;Vessel Arrivals&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;style&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>body {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>margin: 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>padding: 0;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>background-color: #152275; /* Blue background */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>color: #f0f069; /* Yellow text color */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>font-family: 'Roboto Condensed', sans-serif; /* Use Roboto Condensed */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>table {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>width: 100%;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>border-collapse: collapse;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>font-size: 39px; /* Font size */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>color: #f0f069; /* Font color */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>th, td {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>border: 1px solid #f0f069; /* Yellow border for table */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>padding: 15px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>text-align: center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>th {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>background-color: #152275; /* Table header background */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;table&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;thead&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Vessel&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;ETA&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;th&gt;Cruise Line&lt;/th&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/tr&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/thead&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;tbody id="eventsTable"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;!-- Vessel data will be inserted here --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/tbody&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/table&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>async function fetchEvents() {</span></p>
+<p class="p3"><span class="s2"><span class="Apple-converted-space">            </span>const response = await fetch('</span><b>https://script.google.com/macros/s/AKfycbzguWD_gEHFdkkbeZ3T7BJu0er1NKuzTdejr7ex6g0lXH4hHV_yq1F5MT7IGKvJ77KCHQ/exec</b><span class="s2">');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const data = await response.json();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const tableBody = document.getElementById('eventsTable');</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>// Clear existing rows</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>tableBody.innerHTML = '';</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>// Populate the table with data</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>for (const event of data) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>if (event.length &gt; 0) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>const row = document.createElement('tr');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>row.innerHTML = `&lt;td&gt;${event[0] || 'N/A'}&lt;/td&gt;&lt;td&gt;${event[1] || 'N/A'}&lt;/td&gt;&lt;td&gt;${event[2] || 'N/A'}&lt;/td&gt;`;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>tableBody.appendChild(row);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>// If there are less than 5 events, fill empty rows</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>while (tableBody.rows.length &lt; 5) {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>const row = document.createElement('tr');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>row.innerHTML = '&lt;td&gt;N/A&lt;/td&gt;&lt;td&gt;N/A&lt;/td&gt;&lt;td&gt;N/A&lt;/td&gt;';</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>tableBody.appendChild(row);</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>fetchEvents();</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
